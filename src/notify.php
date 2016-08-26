@@ -82,15 +82,6 @@ function success($data)
  */
 function save_file($data)
 {
-    $user_id   = $data['user'];
-    $filename  = $data['filename'];
-    $object    = $data['objectName'];
-    $file_size = $data['size'];
-    $file_mime = $data['mimeType'];
-    $height    = $data['height'];
-    $width     = $data['width'];
-    $width     = $data['width'];
-
     $info = [
         'info'=>$data,
     ];
